@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 PYFILE = "I am a Queen"
 
-python $PYFILE
+python(PYFILE)
