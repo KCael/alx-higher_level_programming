@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-PYFILE = "I am a Queen"
-
 python(PYFILE)
