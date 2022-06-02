@@ -4,10 +4,10 @@ if __name__ == "__main__":
     total = len(sys.argv)
     if total == 1:
         print("{} arguments.".format(num - 1))
+    elif total == 2:
+        print("{} argument:".format(total - 1))
     else:
-        if total == 2:
-            print("{} argument:".format(total - 1))
-        else:
-            print("{} arguments:".format(total - 1))
-        for i in range(1, total):
-            print("{}: {}".format(i, sys.argv[i]))
+        print("{} arguments:".format(total - 1))
+
+    for i in range(1, total):
+        print("{}: {}".format(i, sys.argv[i]))
