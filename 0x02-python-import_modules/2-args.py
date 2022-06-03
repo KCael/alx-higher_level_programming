@@ -3,7 +3,7 @@ if __name__ == "__main__":
     import sys
     total = len(sys.argv)
     if total == 1:
-        print("{} arguments.".format(num - 1))
+        print("{} arguments.".format(total - 1))
     elif total == 2:
         print("{} argument:".format(total - 1))
     else:
