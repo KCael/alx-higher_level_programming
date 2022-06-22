@@ -9,4 +9,4 @@ class Square:
         """Initializes the data.
         Private instance attribute: size.
         """
-        self.__size = size 
+        self.__size = size
