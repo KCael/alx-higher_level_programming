@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-class LockedClass:
+"""
+A class that prevents dynamic attributes creation
+
+"""
+
+class LockedClass():
 
     __slots__ = ['first_name']
 
