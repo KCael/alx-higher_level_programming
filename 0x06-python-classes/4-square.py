@@ -25,4 +25,4 @@ class Square():
     """returns cyrrent square"""
 
     def area(self):
-        return value ** 2
+        return self.__value ** 2
