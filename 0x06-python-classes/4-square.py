@@ -6,7 +6,7 @@ class Square():
     """square class with size and proper validation"""
 
     def __init__(self, size=0):
-        self.__size = size
+        self.size = size
 
     """Retrieves the property"""
 
@@ -22,7 +22,7 @@ class Square():
             raise ValueError("size must be >= 0")
         self.__size = value
 
-    """returns cyrrent square"""
+    """returns current square"""
 
     def area(self):
         return self.__size ** 2
