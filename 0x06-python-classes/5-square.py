@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 """Defines a square"""
 
 
@@ -26,9 +26,7 @@ class Square():
 
     """prints in stdout the square with the character #"""
     def my_print(self):
-        for i in range(self.__size):
-            print("#" * self.__size)
         if not self.__size:
             print("")
-
-
+        for i in range(self.__size):
+            print("#" * self.__size)
